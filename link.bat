@@ -5,4 +5,6 @@ REM https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symli
 mklink /J "%tf2dir%\cfg\user" "cfg\user"
 mklink /H "%tf2dir%\custom\mastercomfig.bat" "custom\mastercomfig.bat"
 
+mklink /J "%tf2dir%\custom\thaatz" "custom\thaatz"
+
 pause

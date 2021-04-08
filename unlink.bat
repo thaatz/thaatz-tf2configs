@@ -8,4 +8,8 @@ copy "cfg\user" "%tf2dir%\cfg\user"
 del "%tf2dir%\custom\mastercomfig.bat"
 copy "custom\mastercomfig.bat" "%tf2dir%\controls.cfg"
 
+mklink /J "%tf2dir%\custom\thaatz" "custom\thaatz"
+rmdir "%tf2dir%\custom\thaatz"
+copy "custom\thaatz" "%tf2dir%\custom\thaatz"
+
 pause
